@@ -1,0 +1,128 @@
+/* Hero Section*/
+.hero{
+    margin: 4rem 6.1rem;
+    padding: 1rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.hero_paragraph{
+    font-size: 7rem;
+    font-weight: bolder;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+.hero_word{
+    color: var(--color-orange);
+}
+.hero_container_card_image{
+    position: relative;
+    margin: 0;
+    padding: auto;
+    max-width:56rem;
+    border-radius: 10px;
+    transition: all 700ms ease;
+
+}
+.hero_container_card_name{
+    position: relative;
+    font-weight: 700;
+    line-height: 130%;
+    padding-left: 1rem;
+    transition: all 700ms ease;
+}
+.hero_container_card{
+    border-radius: 1rem;
+    max-width: 56rem;
+    border: 1px solid var(--color-grey);
+    padding-bottom: 2rem;
+    border-top: 0;
+}
+.extraInfo_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: medium;
+}
+/* movimentação - Hero*/
+.hero_container_card:hover .hero_container_card_image {
+    transform: translate(0, -2.5rem);
+}
+
+.hero_container_card:hover>.hero_container_card_extraInfo{
+    visibility: visible;
+    opacity: 1;
+}
+.hero_container_card:not(:hover)>.hero_container_card_extraInfo{
+    transition: 300ms;
+    visibility: hidden;
+}
+.hero_container_card:not(:hover)>.hero_container_card_note{
+    transition: 500ms;
+    visibility: hidden;
+} 
+.hero_container_card:hover>.hero_container_card_note{
+    visibility: visible;
+    opacity: 1;
+}
+.hero_container_card:hover>.hero_container_card_name{
+    transform: translate(0, -2.5rem);
+}
+/* movimentaçã - Hero - FIM*/
+.hero_container_card_note{
+    visibility: hidden;
+    position: relative;
+    top: -2.2rem;
+    opacity: 0;
+    padding: 0.5rem;
+    transition: visibility 300ms, opacity 500ms linear;
+}
+.hero_container{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 4rem;
+    gap: 1rem;
+    justify-content: center;
+}
+.hero_container_card_extraInfo{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 300ms, opacity 500ms linear;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 56rem;
+    padding: 0 2rem;
+}
+/**/
+/* Menu Section*/
+.menu{
+    margin: 4rem 6.1rem;
+    padding: 1rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.menu_links{
+    padding: auto;
+}
+.menu_links_img{
+    object-fit: cover;
+    margin: 3rem;
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    html{
+        font-size: 10px;
+    }
+
+
+
+
+}

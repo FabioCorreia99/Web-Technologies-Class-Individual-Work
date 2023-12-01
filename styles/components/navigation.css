@@ -1,0 +1,47 @@
+.nav_sticky{
+    position: sticky;
+    top: 0;
+    max-width: 300rem;
+    margin: 1.2rem 4rem;
+    padding: 1.5rem;
+    background-color:var(--color-white);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   z-index: 3;
+}
+.nav_sticky_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10rem;
+    
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.nav_wrapper_links{
+    color: var(--color-orange);
+    text-decoration: none;
+    align-self: center;
+}
+.nav_wrapper_links:hover{
+    transition: 350ms;
+    background-color: var(--color-black);
+    font-weight: bolder;
+    font-size:larger ;
+    padding: 6px;
+    border-radius: 20px;
+}
+.nav_stickey_button{
+    color: var(--color-black);
+    text-decoration: none;
+    background-color: var(--color-orange);
+    padding: 0.8rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.nav_stickey_button:hover{
+    border-radius: 10px;
+    transition: 300ms;
+    color: var(--color-white);
+}

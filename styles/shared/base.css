@@ -1,0 +1,17 @@
+html {
+    font-size: calc(100vw / 1920 * 10);
+  }
+
+body{
+    font-family: "play";
+    font-size: 2rem;
+    line-height: 160%;
+}
+
+
+@media only screen and (max-width: 1024px){
+    html{
+        font-size: 10px;
+    }
+}
+

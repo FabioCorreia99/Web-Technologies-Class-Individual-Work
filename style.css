@@ -1,0 +1,12 @@
+/*Import da Font*/
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+/*Import /components*/
+@import url("./styles/components/navigation.css");
+@import url("./styles/components/navigation_Fixed.css");
+@import url("./styles/components/footer.css");
+/*Import /shared*/
+@import url("./styles/shared/reset.css");
+@import url("./styles/shared/variables.css");
+@import url("./styles/shared/base.css");
+/*Import /pages*/
+@import url("./styles/pages/homepage.css");
