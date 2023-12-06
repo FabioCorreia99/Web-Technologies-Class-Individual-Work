@@ -14,6 +14,7 @@
 .hero_word{
     color: var(--color-orange);
 }
+
 .hero_container_card_image{
     position: relative;
     margin: 0;
@@ -67,7 +68,7 @@
 .hero_container_card:hover>.hero_container_card_name{
     transform: translate(0, -2.5rem);
 }
-/* movimentaçã - Hero - FIM*/
+/* movimentação - Hero - FIM*/
 .hero_container_card_note{
     visibility: hidden;
     position: relative;
@@ -92,6 +93,38 @@
     justify-content: space-between;
     max-width: 56rem;
     padding: 0 2rem;
+}
+/**/
+/* More Visied Section*/
+.more_visited{
+    margin: 4rem 6.1rem;
+    padding: 1rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.more_visited_paragraph{
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.more_visited_wrapper{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+    
+}
+.more_visited_card{
+    max-width: 20rem;
+    border: 1px solid var(--color-grey);
+    margin-bottom: 3rem;
+    border-radius: 10px;
+}
+.more_visited_img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10px;
+    object-fit: cover;
 }
 /**/
 /* Menu Section*/
@@ -121,8 +154,22 @@
     html{
         font-size: 10px;
     }
+    .hero_card3{
+        display: none;
+    }
+    .menu{
+        flex-direction: row;
+    }
+    .more_visited_wrapper{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .mvcdisplay{
+        display: none;
+    }
+}
 
-
-
-
+@media only screen and (max-width: 768px){
+    .more_visited_wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
 }

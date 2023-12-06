@@ -45,3 +45,18 @@
     transition: 300ms;
     color: var(--color-white);
 }
+
+@media only screen and (max-width: 1024px){
+    .nav_sticky{
+        margin: 1.2rem 3rem;
+    }
+    .nav_sticky_wrapper{
+        gap: 1.5rem;
+        font-size: medium;
+        font-weight: 600;
+    }
+    .nav_wrapper_links:hover{
+        font-size: medium;
+        font-weight: 500;
+    }
+}

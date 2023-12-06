@@ -1,0 +1,34 @@
+.site_Logo{
+    max-width: 5rem;
+    min-width: 2.5rem;
+}
+.nav_mobile{
+    display: none;
+    }
+.nav_mobile_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:2rem;
+}
+.nav_mobile_img{
+    color: var(--color-orange);
+    text-decoration: none;
+    align-self: center;
+}
+@media only screen and (max-width: 768px){
+    .nav_mobile {
+        margin: 1rem;
+        padding: 1.5rem;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav_fixed{
+        display: none;
+    }
+    .nav_sticky{
+        display: none;
+    }
+}

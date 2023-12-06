@@ -2,6 +2,7 @@
     max-width: 50rem;
     min-width: 10rem;
 }
+
 .nav_fixed{
     max-width: 200rem;
     margin: 1.2rem 4rem;
@@ -44,3 +45,4 @@
     width: 0,4px;
     background-color: var(--color-grey);
 }
+

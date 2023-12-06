@@ -4,9 +4,11 @@
 @import url("./styles/components/navigation.css");
 @import url("./styles/components/navigation_Fixed.css");
 @import url("./styles/components/footer.css");
+@import url("./styles/components/navigation_mobile.css");
 /*Import /shared*/
 @import url("./styles/shared/reset.css");
 @import url("./styles/shared/variables.css");
 @import url("./styles/shared/base.css");
 /*Import /pages*/
 @import url("./styles/pages/homepage.css");
+@import url("./styles/pages/SendRecipes.css");

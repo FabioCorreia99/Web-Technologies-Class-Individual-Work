@@ -2,9 +2,11 @@
     background-color: var(--color-black);
     color: var(--color-white);
     bottom: 0;
-    overflow-x:hidden;
+    left: 0;
+    width: 100v;
     padding:30px 0px;
     text-align: center;
+    
 }
 .footer_wrapper_line1{
     display: flex;
@@ -42,4 +44,15 @@
 .footer_links:hover{
     color: var(--color-orange);
     transition: all 300ms;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .footer_wrapper_line2{
+        flex-direction: column;
+        
+    }
+    .footer_wrapper_line1{
+        gap: 1rem;
+    }
 }
