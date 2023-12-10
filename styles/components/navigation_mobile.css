@@ -1,34 +1,36 @@
-.site_Logo{
-    max-width: 5rem;
-    min-width: 2.5rem;
+.nav_mobile_link{/*Estrutura*/
+    text-decoration: none;
+    color: var(--color-black);
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 1rem;
+    background-color: var(--color-orange);
+    padding: 1px;
+    border-radius: 0.5rem;
 }
-.nav_mobile{
+.nav_mobile{/*desligar nav mobile*/
     display: none;
-    }
-.nav_mobile_wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap:2rem;
 }
-.nav_mobile_img{
+.nav_mobile_img{/*Image*/
     color: var(--color-orange);
     text-decoration: none;
-    align-self: center;
 }
 @media only screen and (max-width: 768px){
-    .nav_mobile {
-        margin: 1rem;
-        padding: 1.5rem;
+    .nav_mobile {/*Estrutura mobile*/
+        padding: 1rem;
         background-color: #ffffff;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
-    .nav_fixed{
+    .nav_fixed{/*desligar nav fixed*/
         display: none;
     }
-    .nav_sticky{
+    .nav_sticky{/*desligar nav sticky*/
         display: none;
+    }
+    #Logo{/*Logo*/
+        width: 12rem;
     }
 }

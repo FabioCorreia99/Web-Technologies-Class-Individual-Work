@@ -1,40 +1,40 @@
-.SendRecipes{
+.SendRecipes{/*Estrutura*/
     margin: 4rem 6.1rem;
     padding: 1rem;
     font-size: 3rem;
     margin-top: 2rem;
 }
-.SendRecipes_Title{
+.SendRecipes_Title{/*Titulo*/
     margin-bottom: 4rem;
     font-size: larger;
     font-weight: bolder;
 }
-.form_recipe{
+.form_recipe{/*Estruturado Formulario*/
     margin: 4rem 6.1rem;
     padding: 1rem;
     font-size: 3rem;
     margin-top: 2rem;
 }
-#form_recipeTitle{
+#form_recipeTitle{/*Estilo do input*/
     height: 3rem;
     width: 25%;
     margin-bottom: 5rem;
 }
-#form_recipeServings{
+#form_recipeServings{/*Estilo do input*/
     height: 3rem;
     width: 15%;
     margin-bottom: 5rem;
 }
-#form_recipeIngre,#form_recipeSteps,#recipe_authorName,#recipe_authorLastname{
+#form_recipeIngre,#form_recipeSteps,#recipe_authorName,#recipe_authorLastname{/*Estilo do input*/
     margin-bottom: 5rem;
     height: 3rem;
     width: 20%;
 }
-.form_container{
+.form_container{/*Estilo do input*/
     border: 1px solid var(--color-grey);
     max-width: 78rem;
 }
-input[type=file]::file-selector-button{
+input[type=file]::file-selector-button{/*Estilo do input*/
     background-color: var(--color-white);
     color: var(--color-black);
     border: 0px;
@@ -43,18 +43,18 @@ input[type=file]::file-selector-button{
     margin-right: 20px;
     transition: all 0.5s;
 }
-input[type=file]::file-selector-button:hover{
+input[type=file]::file-selector-button:hover{/*Estilo do input*/
     background-color: var(--color-grey);
 }
-#recipe_authoremail{
+#recipe_authoremail{/*Estilo do input*/
     height: 3rem;
     width: 35%;
 }
-#authorAge{
+#authorAge{/*Estilo do input*/
     margin-top: 15rem;
     margin-bottom: 1rem;
 }
-#recipe_submit{
+#recipe_submit{/*Estilo do input*/
     cursor: pointer;
     padding: 2rem 2rem;
     background-color: var(--color-orange);

@@ -1,4 +1,4 @@
-.nav_sticky{
+.nav_sticky{/*Estrutura*/
     position: sticky;
     top: 0;
     max-width: 300rem;
@@ -8,9 +8,9 @@
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   z-index: 3;
+   z-index: 3;/*para ficar á frentede tudo*/
 }
-.nav_sticky_wrapper{
+.nav_sticky_wrapper{/*menu dos menus*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,12 +19,12 @@
     font-size: 3rem;
     font-weight: bolder;
 }
-.nav_wrapper_links{
+.nav_wrapper_links{/*Links Design*/
     color: var(--color-orange);
     text-decoration: none;
     align-self: center;
 }
-.nav_wrapper_links:hover{
+.nav_wrapper_links:hover{/*Efeitos de transição*/
     transition: 350ms;
     background-color: var(--color-black);
     font-weight: bolder;
@@ -32,7 +32,7 @@
     padding: 6px;
     border-radius: 20px;
 }
-.nav_stickey_button{
+.nav_stickey_button{/*Button Design*/
     color: var(--color-black);
     text-decoration: none;
     background-color: var(--color-orange);
@@ -40,7 +40,7 @@
     border-radius: 20px;
     font-weight: 600;
 }
-.nav_stickey_button:hover{
+.nav_stickey_button:hover{/*Efeitos de Transição*/
     border-radius: 10px;
     transition: 300ms;
     color: var(--color-white);

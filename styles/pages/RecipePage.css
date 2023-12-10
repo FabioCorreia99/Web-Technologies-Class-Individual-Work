@@ -1,0 +1,128 @@
+/*-----------------------Recipe_Hero Section----------------------------------*/
+.recipe_hero{
+    margin: 4rem 6.1rem;
+    padding: 1rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.recipe_hero_img{
+    margin-top: 10rem;
+    object-fit: cover;
+    margin-left: 7rem;
+    width: 40%;
+    height: 60rem;
+}
+.recipe_hero_wrapper{
+    margin: 4rem 6.1rem;
+    padding: 1rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.recipe_hero_wrapper_info{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    gap: 4rem;
+}
+.recipe_hero_wrapper_img{
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+.recipe_hero_wrapper_info_paragraph{
+    font-size: larger;
+
+}
+.recipe_hero_wrapper_info_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.recipe_hero_wrapper_Title{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/*-----------------------------------FIM------------------------------------------*/
+.line_division{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+    margin-bottom: 10rem;
+}
+/*----------------------------Ingredients_Steps Section---------------------------*/
+.ingredients_steps{
+    margin: 4rem 6.1rem;
+    padding: 1rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.ingredients_list{
+    margin: 5rem;
+    padding: 5rem;
+}
+.steps_wrapper_list{
+    margin: 5rem;
+    padding: 5rem;
+    padding-right: 0;
+}
+.Steps_legend{
+    background-color: var(--color-black);
+    color:var(--color-orange);
+}
+/*-----------------------------------FIM------------------------------------------*/
+
+
+@media only screen and (max-width: 1024px){
+    .recipe_hero{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .recipe_hero_img{
+        width: 80%;
+    }
+    .ingredients_steps{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .recipe_hero_img{
+        margin: 0;
+        align-items: center;
+        max-height: 40rem;    
+        max-width: 40rem;
+    }
+    .recipe_hero{
+        margin-left: 5rem;
+    }
+    .recipe_hero_wrapper_info_paragraph, .recipe_hero_wrapper_info_wrapper{
+        gap: 0;
+        font-weight: 600;
+        font-size: 10px; 
+    }
+    .ingredients_steps{
+       margin: 0;
+       padding: 0;
+    }
+    .steps_wrapper_list{
+        margin: 1rem;
+        padding: 0;
+        padding-top: 1rem;
+    }
+    .ingredients_list_item{
+        font-size: large;
+    }
+}
+
+
+

@@ -12,3 +12,8 @@
 /*Import /pages*/
 @import url("./styles/pages/homepage.css");
 @import url("./styles/pages/SendRecipes.css");
+@import url("./styles/pages/RecipePage.css");
+@import url("./styles/pages/Menu_Drinks.css");
+@import url("./styles/pages/Menu_Meal.css");
+@import url("./styles/pages/Menu_Dessert.css");
+@import url("./styles/pages/Menu_Hmeal.css");
